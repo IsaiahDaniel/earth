@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Brightwall';
+    src: local('Brightwall'), url(./fonts/brightwall/Brightwall.ttf) format('opentype');
+}
