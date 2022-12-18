@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 @font-face {
-    font-family: 'Brightwall';
-    src: local('Brightwall'), url(./fonts/brightwall/Brightwall.ttf) format('opentype');
+  font-family: "Brightwall";
+  src: local("Brightwall"),
+    url(./fonts/brightwall/Brightwall.ttf) format("opentype");
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }
