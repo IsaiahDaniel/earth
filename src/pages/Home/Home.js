@@ -2,6 +2,8 @@ import React from "react";
 import { Header } from "../../components";
 
 import "./home.css";
+import Input from "../../components/input/Input";
+import Button from "../../components/Button/Button";
 
 const Home = () => {
   return (
@@ -58,9 +60,11 @@ const Home = () => {
         </div>
 
         <div className="mt-[200px] bg-[#B97BF4] p-10 text-white">
-          <h3 className="text-5xl text-center font-[Brightwall] mb-9">Our nft market place</h3>
+          <h3 className="text-5xl text-center font-[Brightwall] mb-9">
+            Our nft market place
+          </h3>
           <div className="w-[90%] mx-auto flex items-center justify-between">
-            <div className="mt-7 w-1/2">    
+            <div className="mt-7 w-1/2">
               <div className="mt-30 text-3xl leading-10">
                 Our NFT Project will have certain functionalities on our
                 platform to promote art and its trade and will be our means of
@@ -85,9 +89,11 @@ const Home = () => {
         </div>
 
         <div className="mt-[200px] p-10 text-white">
-          <h3 className="text-5xl text-center font-[Brightwall] text-[#B97BF4] mb-9">Connect with Galleries</h3>
+          <h3 className="text-5xl text-center font-[Brightwall] text-[#B97BF4] mb-9">
+            Connect with Galleries
+          </h3>
           <div className="w-[90%] mx-auto flex items-center justify-between">
-            <div className="mt-7 w-1/2">    
+            <div className="mt-7 w-1/2">
               <div className="mt-30 text-3xl text-black leading-10">
                 Our NFT Project will have certain functionalities on our
                 platform to promote art and its trade and will be our means of
@@ -102,6 +108,30 @@ const Home = () => {
                 alt=""
                 className="h-[600px] w-[500px]"
               />
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-[200px] p-10 bg-[#B97BF4]">
+          <div className="w-[90%] mx-auto flex items-center justify-between">
+            <div className="flex mt-[-100px]">
+              <img
+                src={require("../../assets/newsletter.png")}
+                alt=""
+                className="h-[600px] w-[500px]"
+              />
+            </div>
+
+            <div className="mt-7 w-1/2">
+              <div className="mt-30 text-3xl text-black leading-10 mb-4">
+                Join our weekly news letter so you don’t miss out on any of our
+                lastest update
+              </div>
+              <div>
+                <Input placeholder="First name" />
+                <Input placeholder="Email" />
+                <Button text="Join Us" />
+              </div>
             </div>
           </div>
         </div>
