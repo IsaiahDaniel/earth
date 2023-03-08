@@ -7,8 +7,8 @@ import { FaDiscord, FaTiktok } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="bg-gradient-to-b from-[rgba(0,0,0,0.9)] to-[#B97BF4] p-5 py-20 text-white">
-      <div className="w-[60%] mx-auto">
-        <div className="flex items-center justify-between border-b">
+      <div className="w-full md:w-[60%] mx-auto">
+        <div className="flex flex-col md:flex-row items-center justify-between border-b">
 
           <ul className="flex justify-between items-center space-x-8">
             <li>Mobile App</li>
